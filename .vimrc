@@ -129,13 +129,13 @@ imap <C-Return> <CR><CR><C-o>k<Tab>
 inoremap jj <ESC>
 
 " Colorscheme
-colo solarized
+colo badwolf
 
 " Enable autoindent
 set autoindent
 
 " Theme for Airline
-let g:airline_theme='solarized'
+let g:airline_theme='badwolf'
 
 " ctrlp activation
 set runtimepath^=~/.vim/bundle/ctrlp.vim

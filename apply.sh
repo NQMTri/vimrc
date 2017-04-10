@@ -39,7 +39,7 @@ git clone git://github.com/tpope/vim-fugitive.git ~/.vim/bundle/vim-fugitive
 echo ">> Installing GitGutter"
 git clone git://github.com/airblade/vim-gitgutter.git ~/.vim/bundle/vim-gitgutter
 
-echo ">> Installing GitTemplate"
+echo ">> Installing VimTemplate"
 git clone git://github.com/aperezdc/vim-template.git ~/.vim/bundle/vim-template
 
 echo ">> Installing Indexed Search"
@@ -59,8 +59,5 @@ git clone https://github.com/flazz/vim-colorschemes.git ~/.vim/bundle/vim-colors
 
 echo ">> Applying configuration"
 cp vimconf/.vimrc ~/
-
-echo ">> Cleaning up"
-rm -rf vimconf
 
 echo ">> Done"
