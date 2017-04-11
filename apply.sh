@@ -58,6 +58,6 @@ echo ">> Installing colorschemes"
 git clone https://github.com/flazz/vim-colorschemes.git ~/.vim/bundle/vim-colorschemes
 
 echo ">> Applying configuration"
-cp vimconf/.vimrc ~/
+cp .vimrc ~/
 
 echo ">> Done"
