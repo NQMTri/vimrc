@@ -61,57 +61,37 @@ to the repository page for the better documentation as well.
 
 Here is the list of packages:
 
-- Pathogen: https://github.com/tpope/vim-pathogen
-
-  This package managermakes it super easy to install other packages.
-- Auto Pairs: https://github.com/jiangmiao/auto-pairs
-
-  Inserts, deletes brackets, parens, quotes in pair.
-- NERDCommenter: https://github.com/scrooloose/nerdcommenter
-
+- Pathogen: https://github.com/tpope/vim-pathogen : This package managermakes 
+  it super easy to install other packages.
+- Auto Pairs: https://github.com/jiangmiao/auto-pairs : Inserts, deletes
+  brackets, parens, quotes in pair.
+- NERDCommenter: https://github.com/scrooloose/nerdcommenter :
   Comments/Uncomments code.
-- NERDTree: https://github.com/scrooloose/nerdtree
-
-  File explorer side bar.
-- Tabline: https://github.com/mkitt/tabline.vim
-
-  Makes tabs look better.
-- Tagbar: https://github.com/majutsushi/tagbar
-
-  Shows tags (variable, function's names...) of the current source code file.
-- Airline: https://github.com/vim-airline/vim-airline
-
-  A beautiful status bar for Vim.
-- Airline Theme: https://github.com/vim-airline/vim-airline-themes
-
-  A huge collection of themes for Airline.
-- EasyMotion: https://github.com/easymotion/vim-easymotion
-
-  Provides a quick and easy way to navigate through a file.
-- Fugitive: https://github.com/tpope/vim-fugitive
-
-  An awesome Git wrapper for Vim.
-- Git Gutter: https://github.com/jisaacks/GitGutter
-  
-  Shows git diff of the current file.
-- Vim Tempate: https://github.com/aperezdc/vim-template
- 
-  Insert templates/skeleton code for certain file types.
-- Vim Indexed Search: https://github.com/henrik/vim-indexed-search
-  
-  Enhanced search feature.
-- Vim Surround: https://github.com/tpope/vim-surround
-  
-  Surrounds words with quotes, paratheses...
-- Tabmerge: https://github.com/vim-scripts/Tabmerge
-
-  Merges a tab with the current window.
-- DoxygenToolKit: https://github.com/vim-scripts/DoxygenToolkit.vim
-  
-  Doxygen tool for Vim.
-- Vim Colorscheme: https://github.com/flazz/vim-colorschemes
-  
-  A massive collection of Vim colorschemes.
+- NERDTree: https://github.com/scrooloose/nerdtree : File explorer side bar.
+- Tabline: https://github.com/mkitt/tabline.vim : Makes tabs look better.
+- Tagbar: https://github.com/majutsushi/tagbar : Shows tags (variable,
+  function's names...) of the current source code file.
+- Airline: https://github.com/vim-airline/vim-airline : A beautiful status bar
+  for Vim.
+- Airline Theme: https://github.com/vim-airline/vim-airline-themes : A huge
+  collection of themes for Airline.
+- EasyMotion: https://github.com/easymotion/vim-easymotion : Provides a quick
+  and easy way to navigate through a file.
+- Fugitive: https://github.com/tpope/vim-fugitive : An awesome Git wrapper.
+- Git Gutter: https://github.com/jisaacks/GitGutter : Shows git diff of the
+  current file.
+- Vim Tempate: https://github.com/aperezdc/vim-template : Insert
+  templates/skeleton code for certain file types.
+- Vim Indexed Search: https://github.com/henrik/vim-indexed-search : Enhanced
+  search feature.
+- Vim Surround: https://github.com/tpope/vim-surround : Surrounds words with
+  quotes, paratheses...
+- Tabmerge: https://github.com/vim-scripts/Tabmerge : Merges a tab with the
+  current window.
+- DoxygenToolKit: https://github.com/vim-scripts/DoxygenToolkit.vim : Doxygen
+  tool for Vim.
+- Vim Colorscheme: https://github.com/flazz/vim-colorschemes : A massive
+  collection of Vim colorschemes.
 
 Tutorial (Still not finished)
 ********
