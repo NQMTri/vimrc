@@ -1,4 +1,4 @@
-VimConf
+VIMRC
 =======
 Are you googling "best vimrc"? Give this one a try!
 
