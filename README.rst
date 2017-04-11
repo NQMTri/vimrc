@@ -1,6 +1,6 @@
 VimConf
 =======
-Instant beautiful and powerful Vim!
+Are you googling "best vimrc"? Give this one a try!
 
 Introduction
 ************
@@ -25,8 +25,8 @@ Installation
 ************
 Go to your home directory and paste this to the terminal::
 	
-	git clone https://github.com/hkhoi/vimconf.git && \
-	cd vimconf && \
+	git clone https://github.com/hkhoi/vimrc.git && \
+	cd vimrc && \
 	./apply.sh
 
 Please note that one of the package (tagbar) requires ctags. To install it, just simply
