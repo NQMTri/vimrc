@@ -14,7 +14,11 @@ try, Google around to customize Vim the way we want. So, to save your time
 and also mine (sometimes, I just re-install my OS and my precious .vimrc and
 packages are gone), just copy the script from the Installation section, paste
 and then wait for couple of seconds. Then your Vim will looks like this:
-___Insert Image Here___
+.. image:: https://raw.githubusercontent.com/hkhoi/vimconf/master/badwolf.png
+
+or with different themes:
+
+.. image:: https://raw.githubusercontent.com/hkhoi/vimconf/master/papercolor.png
 
 Installation
 ************
@@ -108,7 +112,7 @@ Here is the list of packages:
   |
   A massive collection of Vim colorschemes.
 
-Tutorial
+Tutorial (Still not finished)
 ********
 
 Note
