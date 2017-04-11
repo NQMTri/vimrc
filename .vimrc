@@ -7,14 +7,16 @@ let mapleader = ","
 " Syntax enable
 syntax enable
 
-" Set indentation length
+" Set indentation default length
 set tabstop=8
 set softtabstop=8
 set shiftwidth=8
 set noexpandtab
 
-" Expand tabs into spaces
-" set expandtab
+" Identation for different file types
+autocmd Filetype python setlocal tabstop=4 softtabstop=4 shiftwidth=4 expandtab
+autocmd Filetype php setlocal tabstop=4 softtabstop=4 shiftwidth=4 expandtab
+autocmd Filetype javascript setlocal tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 
 " Set line number
 set number
@@ -50,8 +52,8 @@ set hlsearch
 set colorcolumn=80
 
 " Indentation guides
-" set listchars=tab:\|\ 
-" set list
+set listchars=tab:\|\ 
+set list
 
 " Set dark background
 set background=light
