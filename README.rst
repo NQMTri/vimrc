@@ -103,7 +103,71 @@ The instruction will be something like this::
 	NOMRAL
 	C-j
 
-NORMAL is the current mode of Vim (can be INSERT, VISUAL...). C-j means Control + j;
+NORMAL is the current mode of Vim (can be INSERT, VISUAL...). C-j means
+Control + j;
+
+Navigation
+----------
+To move your cursor from a splitscreen to another::
+	
+	NORMAL
+	gh
+
+In this case, h  is for going left, gj to go down, gk to go up and gl to go
+left.
+
+Tabs
+----
+To create a new blank tab::
+	
+	NORMAL
+	tn
+
+To open a file in a new tab::
+
+	NORMAL
+	tt
+
+and then enter the path of that file.
+
+To go to the next tab::
+
+	NORMAL
+	tl
+
+or::
+
+	NORMAL
+	th
+
+To quit a tab, simply::
+
+	NORMAL
+	:q
+
+NERDTree
+--------
+To toggle NERDTree::
+
+	NORMAL
+	C-n
+
+When your cursor is in the panel, press ? for help. Press ma to create a new
+file or directory, md to delete it.
+
+Press enter to open that file in the current window, press s to open a file
+in a vertical split screen, i for horizontal split screen.
+
+To open a file in new tab, press t.
+
+Tagbar
+------
+To toggle tagbar::
+
+	NORMAL
+	C-j
+
+You can select a tag and press enter to jump to that variable/function...
 
 Escape
 ------
@@ -113,6 +177,24 @@ No need to reach for that Esc key, just press j twice::
 	jj
 
 You will go to NORMAL mode.
+
+Another way which I highly recommend is::
+	
+	INSERT
+	C-c
+
+Word Complition
+---------------
+It works like Sublime::
+
+	INSERT
+	C-n
+
+or, for going backward::
+
+	INSERT
+	C-p
+
 
 Appearance
 ----------
@@ -140,6 +222,22 @@ The same for Airline (status bar)::
 	NORMAL
 	:AirlineTheme <TAB>
 
+Other Tips and Tricks
+*********************
+
+Search
+------
+There is a special way to search, move your cursor to the word you want to look
+for, then press \*. This is useful to see the function definition within a
+file.
+
 Contribution
 ************
 Any contribution is highly appreciated, give me your pull requests!
+
+TODO
+****
+Things I need to write:
+	- Tab merging
+	- Split screen moving
+	- And more..............

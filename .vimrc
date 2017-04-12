@@ -89,9 +89,6 @@ nnoremap tm  :tabm<Space>
 nnoremap tn  :tabnew<CR>
 nnoremap tx  :tabclose<CR>
 
-" Initialize airline
-set laststatus=2
-
 " Recommended setting for airline
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
