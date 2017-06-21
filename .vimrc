@@ -119,7 +119,7 @@ nnoremap yj  :!clear; javac %; java %:r; rm *.class<CR>
 nnoremap yc  :!clear; gcc %; ./a.out; rm a.out<CR>
 
 " C Compile and Run
-nnoremap yv  :!clear; g++ -std=c++11 -DLOCAL %; ./a.out; rm a.out; diff out ans<CR>
+nnoremap yv  :!clear; g++ -std=c++11 -DLOCAL %; ./a.out; rm a.out<CR>
 
 " C Compile and Run
 nnoremap yb  :!clear; g++ -std=c++11 %; ./a.out; rm a.out;<CR>
@@ -134,13 +134,13 @@ imap <C-Return> <CR><CR><C-o>k<Tab>
 inoremap jj <ESC>
 
 " Colorscheme
-colo 256-jungle
+colo solarized
 
 " Enable autoindent
 set autoindent
 
 " Theme for Airline
-let g:airline_theme='base16'
+let g:airline_theme='solarized'
 
 " ctrlp activation
 set runtimepath^=~/.vim/bundle/ctrlp.vim
