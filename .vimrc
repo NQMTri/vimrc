@@ -56,7 +56,7 @@ set listchars=tab:\|\
 set list
 
 " Set dark background
-set background=light
+set background=dark
 
 " Resolve the issue about backspace
 set backspace=indent,eol,start
@@ -119,7 +119,7 @@ nnoremap yj  :!clear; javac %; java %:r; rm *.class<CR>
 nnoremap yc  :!clear; gcc %; ./a.out; rm a.out<CR>
 
 " C Compile and Run
-nnoremap yv  :!clear; g++ -std=c++11 -DLOCAL %; ./a.out; rm a.out<CR>
+nnoremap yv  :!clear; g++ -std=c++11 -DLOCAL %; time ./a.out; rm a.out<CR>
 
 " C Compile and Run
 nnoremap yb  :!clear; g++ -std=c++11 %; ./a.out; rm a.out;<CR>
