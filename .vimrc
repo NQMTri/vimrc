@@ -121,8 +121,8 @@ nnoremap yc  :!clear; gcc %; ./a.out; rm a.out<CR>
 " C Compile and Run
 nnoremap yv  :!clear; g++ -std=c++11 -DLOCAL %; time ./a.out; rm a.out<CR>
 
-" C Compile and Run
-nnoremap yb  :!clear; g++ -std=c++11 %; ./a.out; rm a.out;<CR>
+" Bash Run
+nnoremap yb  :!clear;bash %<CR>
 
 " Python Run
 nnoremap yp  :!clear;python %<CR>
@@ -134,13 +134,13 @@ imap <C-Return> <CR><CR><C-o>k<Tab>
 inoremap jj <ESC>
 
 " Colorscheme
-colo solarized
+colo Tomorrow
 
 " Enable autoindent
 set autoindent
 
 " Theme for Airline
-let g:airline_theme='solarized'
+let g:airline_theme='tomorrow'
 
 " ctrlp activation
 set runtimepath^=~/.vim/bundle/ctrlp.vim
