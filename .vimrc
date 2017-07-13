@@ -18,6 +18,9 @@ autocmd Filetype python setlocal tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 autocmd Filetype php setlocal tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 autocmd Filetype javascript setlocal tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 
+" Enable filetype plugin
+filetype plugin on
+
 " Set line number
 set number
 
@@ -56,7 +59,7 @@ set listchars=tab:\|\
 set list
 
 " Set dark background
-set background=dark
+set background=light
 
 " Resolve the issue about backspace
 set backspace=indent,eol,start
@@ -134,13 +137,13 @@ imap <C-Return> <CR><CR><C-o>k<Tab>
 inoremap jj <ESC>
 
 " Colorscheme
-colo Tomorrow
+colo solarized
 
 " Enable autoindent
 set autoindent
 
 " Theme for Airline
-let g:airline_theme='tomorrow'
+let g:airline_theme='base16'
 
 " ctrlp activation
 set runtimepath^=~/.vim/bundle/ctrlp.vim
