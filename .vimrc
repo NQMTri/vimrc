@@ -122,7 +122,7 @@ nnoremap yj  :!clear; javac %; java %:r; rm *.class<CR>
 nnoremap yc  :!clear; gcc %; ./a.out; rm a.out<CR>
 
 " C Compile and Run
-nnoremap yv  :!clear; g++ -std=c++11 -DLOCAL %; time ./a.out; rm a.out<CR>
+nnoremap yv  :!clear; g++ -std=c++11 -DLOCAL % && echo "Built successfully" && time ./a.out && subl out && rm a.out<CR>
 
 " Bash Run
 nnoremap yb  :!clear;bash %<CR>
