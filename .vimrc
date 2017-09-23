@@ -137,7 +137,7 @@ imap <C-Return> <CR><CR><C-o>k<Tab>
 inoremap jj <ESC>
 
 " Colorscheme
-colo solarized
+colo default
 
 " Enable autoindent
 set autoindent
@@ -150,10 +150,6 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 " Insert timestamp
 inoremap <F5> <C-R>=strftime("%c")<CR>
-
-" Indent Line
-set listchars=tab:\|\ 
-set list
 
 " Ctags configuration
 let g:tagbar_ctags_bin='/usr/bin/ctags'
