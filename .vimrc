@@ -24,8 +24,7 @@ filetype plugin on
 " Set line number
 set number
 
-" Highlight current line
-set cursorline
+
 
 " Load filetype-specific indent file
 filetype indent on
@@ -137,7 +136,13 @@ imap <C-Return> <CR><CR><C-o>k<Tab>
 inoremap jj <ESC>
 
 " Colorscheme
-colo default
+" colo default
+colo monokain 
+
+" Highlight current line
+set cursorline
+" Keep the highlight from underline
+hi CursorLine term=bold cterm=bold guibg=Grey40
 
 " Enable autoindent
 set autoindent
