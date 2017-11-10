@@ -123,6 +123,12 @@ nnoremap yc  :!clear; gcc %; ./a.out; rm a.out<CR>
 " C Compile and Run
 nnoremap yv  :!clear; g++ -std=c++11 -DLOCAL % && echo "Built successfully" && time ./a.out && subl out && rm a.out<CR>
 
+" C++ Compile Everything
+nnoremap yvj  :!clear; g++ -std=c++11 *.cpp && echo "Built successfully" && time ./a.out && subl out && rm a.out<CR>
+
+" C++ Compile everything 
+nnoremap <C-F5>  :!clear; g++ -std=c++11 *.cpp % && echo "Built all files successfully" && time ./a.out && rm a.out<CR>
+
 " Bash Run
 nnoremap yb  :!clear;bash %<CR>
 
@@ -157,7 +163,7 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 inoremap <F5> <C-R>=strftime("%c")<CR>
 
 " Ctags configuration
-let g:tagbar_ctags_bin='/usr/bin/ctags'
+let g:tagbar_ctags_bin='/usr/local/bin/ctags'
 " let g:tagbar_width=30
 noremap <C-j> :TagbarToggle<CR>
 
